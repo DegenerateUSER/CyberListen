@@ -1,0 +1,381 @@
+/*
+ * General/Utility Styles
+*/
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+.hero {
+  background: #edc5c4;
+  
+
+}
+
+body {
+  margin: 0;
+  background: rgb(245, 245, 245);
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: 0.875rem;
+  color: rgb(86, 90, 92);
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+  font-weight: bold;
+  color: rgb(255, 89, 95);
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 600;
+}
+
+
+/*
+ * Button styles
+*/
+
+.button {
+  background: rgb(255, 89, 95);
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 5px 5px;
+  border-bottom: 1px solid rgb(227, 25, 29);
+  border-radius: 2px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+
+/*
+ * Heading 
+*/
+
+h1 {
+  font-size: 2.375rem; /* 22px / 16px */
+  color: rgb(86, 90, 92);
+  padding: 1rem;
+  font-family: 'Black Ops One', serif;
+}
+
+
+
+header {
+  background: #FFF;
+  color: rgb(86, 90, 92);
+}
+
+header .logo {
+  border-right: 1px solid #DCE0E0;
+}
+
+.hero img {
+  width: 100%;
+}
+
+
+.info {
+  background: #e9d7bf;
+  text-align: center;
+  padding: 1.5625rem; /* 25px / 16px */
+}
+
+.info h1 {
+  margin-bottom: .3125rem; /* 5px / 16px */
+}
+
+.info .profile {
+  margin-bottom: 1.5rem; /* 24px / 16px */
+}
+.info .signup {
+  width: 450px;
+}
+.info .signup .left{
+  float: left;
+  width: 450px;
+  position: relative;
+  text-align: center;
+  
+}
+.info .signup .left img {
+  border-radius: 10%;
+  max-width: 95%;
+  margin-bottom: .375rem; /* 6px / 16px */
+}
+
+.info .signup .right {
+  width: 230px;
+  float: left;
+  position: absolute;
+  top: 40px;
+  right: 20px;
+}
+
+.info .signup .right h3 {
+  font-size: 20px;
+  font-family: 'Gabarito', sans-serif;
+  font-weight: 600;
+}
+
+.info .subscribe {
+  width: 450px;
+  padding-left: 50px;
+}
+.info .subscribe .left{
+  float: left;
+  width: 450px;
+  position: relative;
+  text-align: center;
+  
+}
+.info .subscribe .left img {
+  border-radius: 10%;
+  max-width: 95%;
+  margin-bottom: .375rem; /* 6px / 16px */
+}
+
+.info .subscribe .right {
+  width: 200px;
+  float: left;
+  position: absolute;
+  top: 40px;
+  right: 20px;
+}
+
+.info .subscribe .right h3 {
+  font-size: 20px;
+  font-family: 'Gabarito', sans-serif;
+  font-weight: 600;
+}
+
+.info h2.relationship, .info h2.name {
+  color: #909597;
+  margin-bottom:.1875rem; /* 3px / 16px */
+}
+
+.info h2.name {
+  font-weight: bold;
+}
+
+.info p.location {
+  margin-bottom: 1.25rem; /* 20px / 16px */
+}
+
+.info .icon {
+  float: left;
+  width: 33.3%;
+}
+
+.info .icon img {
+  height: 30px;
+  margin-bottom: .1875rem; /* 3px / 16px */
+}
+
+.info .subscribe h2 {
+  font-weight: 600;
+  font-size: 1.375rem; /* 22px / 16px */
+  margin-bottom: .8125rem; /* 3px / 16px */
+}
+
+
+.details {
+  padding: 1.25rem;
+  margin: 10px auto 10px auto;
+}
+
+.details h3 {
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
+  margin: 0.5rem 0 1.5rem 0;
+  color: rgb(86, 90, 92);
+}
+
+
+
+.details section {
+  border-bottom: 1px solid rgb(220, 224, 224);
+  padding: 1rem 0 1.25rem 0;
+}
+
+.details .about {
+  font-size: 0.8125rem;
+  line-height: 1.375rem;
+  text-align: center;
+}
+
+.details .about p {
+  text-align: left;
+}
+
+
+
+
+@media only screen and (min-width: 1060px) {
+
+
+  .container {
+    width: 1040px;
+    margin: 50px auto 50px auto;
+  }
+
+  .column {
+    float: left;
+  }
+
+  .button {
+    width: 100px;
+    margin: 10px auto auto auto;
+  }
+
+  .info h1 {
+    margin-bottom: .6875rem;
+  }
+
+  .info h2 {
+    margin-bottom: .1875rem; /* 3px / 16px */
+  }
+
+  .info .profile {
+    width: 500px;
+    border-right: 1px solid #DCE0E0;
+  }
+
+  .info .subscribe {
+    width: 380px;
+  }
+
+  .info .signup {
+    
+  }
+
+  .details .main {
+    width: 690px;
+  }
+
+
+  .details .about {
+    text-align: left;
+  }
+
+
+.hero #search {
+  padding: 60px 0px 60px 0px;
+  width: 600px;
+  margin: 0px auto 0px auto;
+  height: 250px;
+}
+
+.hero #search h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 30px;
+  padding-left: 20px;
+  font-size: 30px;
+}
+
+.hero #search input[type=text] {
+  
+  padding: 15px;
+  border: none;
+  border-radius: 10%;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 20px;
+  width: 500px;
+}
+
+.topnav {
+  background-color: #6f564d;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.split {
+  float: right;
+  background-color: #6c705e;
+  color: white;
+}
+
+.info .signup .left .pass {
+  border-radius: 10%;
+  max-width: 40%;
+  margin-bottom: .375rem; /* 6px / 16px */
+  float: left;
+}
+
+
+.info .signup .righty {
+  width: 250px;
+  font-size: 17px;
+  float: left;
+  position: absolute;
+  top: 20px;
+  right: 0px;
+}
+
+.info .signup .righty h3 {
+  padding-bottom: 15px;
+  font-family: 'Gabarito', sans-serif;
+  font-weight: 600;
+}
+
+.info .subscribe .left .pass {
+  border-radius: 10%;
+  max-width: 40%;
+  margin-bottom: .375rem; /* 6px / 16px */
+  float: left;
+}
+
+.info .subscribe .righty {
+  width: 250px;
+  font-size: 17px;
+  float: left;
+  position: absolute;
+  top: 20px;
+  right: 0px;
+}
+
+.info .subscribe .righty h3 {
+  padding-bottom: 15px;
+  font-family: 'Gabarito', sans-serif;
+  font-weight: 600;
+}
+
+#color {
+  background: #b9b8a5;
+  height: 300px;
+}
+
+.hero #search h2{
+  font-family: Gabarito;
+  font-style: sans-serif;
+  font-size: 35px;
+  font-weight: 800;
+}
+
+
+
+
